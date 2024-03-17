@@ -1,3 +1,8 @@
+# a Python program that implements a simple version of the 
+# A* algorithm, a popular pathfinding algorithm used in artificial intelligence and robotics:
+
+
+
 import heapq
 
 class Node:
@@ -70,6 +75,14 @@ goal_state = (4, 4)
 astar = AStar(start_state, goal_state, get_neighbors, manhattan_distance)
 path = astar.find_path()
 print("Path:", path)
+
+
+# This program finds a path from a start state to a goal state on a grid using the A* algorithm. 
+# You can customize the grid size, start state, and goal state, as well as the heuristic function and neighbor generation function. 
+# This implementation demonstrates proficiency in algorithmic thinking, object-oriented programming, and problem-solving skills.
+
+
+
 
 
 
