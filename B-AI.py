@@ -77,7 +77,7 @@ path = astar.find_path()
 print("Path:", path)
 
 
-# This program finds a path from a start state to a goal state on a grid using the A* algorithm. 
+# This program finds a path from a start state to a goal state on a grid using the AI algorithm. 
 # You can customize the grid size, start state, and goal state, as well as the heuristic function and neighbor generation function. 
 # This implementation demonstrates proficiency in algorithmic thinking, object-oriented programming, and problem-solving skills.
 
