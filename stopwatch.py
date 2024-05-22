@@ -5,7 +5,7 @@ class Stopwatch:
         self.start_time = None
         self.end_time = None
         self.running = False
-
+# to start the watch
     def start(self):
         if not self.running:
             self.start_time = time.time()
@@ -13,6 +13,7 @@ class Stopwatch:
             print("Stopwatch started...")
         else:
             print("Stopwatch is already running.")
+# to stop the watch
 
     def stop(self):
         if self.running:
@@ -21,7 +22,7 @@ class Stopwatch:
             print("Stopwatch stopped.")
         else:
             print("Stopwatch is not running.")
-
+# reset watch here
     def reset(self):
         self.start_time = None
         self.end_time = None
@@ -38,11 +39,13 @@ class Stopwatch:
         else:
             return 0
 
+
     def display_time(self):
         elapsed = self.elapsed_time()
         minutes, seconds = divmod(elapsed, 60)
         hours, minutes = divmod(minutes, 60)
         print(f"Elapsed Time: {int(hours):02}:{int(minutes):02}:{int(seconds):02}")
+
 
 if __name__ == "__main__":
     stopwatch = Stopwatch()
